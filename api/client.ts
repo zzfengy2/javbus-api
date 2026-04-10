@@ -1,4 +1,4 @@
-import { type ExtendOptions, got } from 'got'
+import got, { type ExtendOptions } from 'got'
 import { HttpsProxyAgent } from 'https-proxy-agent'
 import type { Agent as HttpsAgent } from 'node:https'
 import { SocksProxyAgent } from 'socks-proxy-agent'
